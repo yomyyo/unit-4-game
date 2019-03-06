@@ -12,29 +12,36 @@ h1{
     font-size: 100px;
     background-color: black;
     color: antiquewhite;
+    display: inline-block;
 }
 
 #instructions{
     font-size: 20px;
     background-color: red;;
     color: white;
+    border: 1px black solid;
 }
 
 #randomNumDiv{
     background-color: black;
     color: antiquewhite;
     font-size: 40px;
+    display: inline-block;
 }
 
 #winsDiv{
     background-color: red;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    display: inline-block;
+    border: 1px black solid;
 }
 #lossesDiv{
     background-color: red;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    display: inline-block;
+    border: 1px black solid;
 }
 
 .clickMe{
@@ -46,7 +53,16 @@ h1{
     float: left;
     width: 25%;
     border: none;
+}
+
+#gemOne{
     padding: none;
+}
+
+#totalDiv{
+    background-color: red;
+    color: white;
+    border: 1px black solid;
 }
 
 h2{
@@ -55,4 +71,11 @@ h2{
 
 #totalScoreDiv{
     font-size: 40px;
+    height: 200px;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 60px;
+    }
 }

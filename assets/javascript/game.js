@@ -1,6 +1,7 @@
 var wins = 0;
 var losses = 0;
 var total = 0;
+$("#totalScoreDiv").text(total);
 
 
 function clickedGem(){
